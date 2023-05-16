@@ -2,12 +2,9 @@
 #include <stdexcept>
 #include <string>
 
-namespace Factorial {
-    using namespace std;
+#include "ParameterValueCausesOverflow.h"
 
-    class ParameterValueCausesOverflow : public runtime_error {
-    public:
-        explicit ParameterValueCausesOverflow(const string& errorMessage)
-            : runtime_error(errorMessage) {}
-    };
+namespace Factorial {
+    ParameterValueCausesOverflow::ParameterValueCausesOverflow(const std::string& errorMessage)
+        : std::runtime_error(errorMessage) {}
 }

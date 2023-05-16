@@ -2,12 +2,9 @@
 #include <stdexcept>
 #include <string>
 
-namespace Factorial {
-    using namespace std;
+#include "NegativeValueException.h"
 
-    class NegativeValueException : public runtime_error {
-    public:
-        explicit NegativeValueException(const string& errorMessage)
-            : runtime_error(errorMessage) {}
-    };
+namespace Factorial {
+    NegativeValueException::NegativeValueException(const std::string& errorMessage)
+        : std::runtime_error(errorMessage) {}
 }
