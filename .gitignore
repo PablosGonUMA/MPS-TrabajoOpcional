@@ -1,1 +1,11 @@
 \.vs\
+*.vsidx
+.vs/MPS-TrabajoOpcional/v17/.wsuo
+*.db-shm
+*.opendb
+*.ipch
+*.db-wal
+*.db
+*.sqlite
+*.json
+*.db
