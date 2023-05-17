@@ -21,7 +21,7 @@ Person::Person(const string& name, int age, const string& gender) {
     this->gender = gender;
 }
 
-Person::Person() : Person("", -1, "") {}
+Person::Person() : Person("Noname", 0, "Male") {}
 
 int Person::getAge() const {
     return age;
@@ -48,8 +48,8 @@ double* Person::averageAgePerGender(const vector<Person>& persons) {
         }
     }
 
-    double averageForMen = (numberOfMen == 0) ? 0 : (static_cast<double>(ageAccumulatorForMen) / numberOfMen);
-    double averageForWomen = (numberOfWomen == 0) ? 0 : (static_cast<double>(ageAccumulatorForWomen) / numberOfWomen);
+    double averageForMen = (numberOfMen == 0) ? 0 : ((double) (ageAccumulatorForMen) / numberOfMen);
+    double averageForWomen = (numberOfWomen == 0) ? 0 : ((double) (ageAccumulatorForWomen) / numberOfWomen);
 
     double* averages = new double[2];
     averages[0] = averageForMen;
