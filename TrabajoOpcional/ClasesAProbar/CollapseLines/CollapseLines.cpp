@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\CollapseLines\CollapseLines.h>
+#include "CollapseLines.h"
 
 using namespace std;
 
