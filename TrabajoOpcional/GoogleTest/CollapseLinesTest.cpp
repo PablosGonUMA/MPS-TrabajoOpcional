@@ -1,7 +1,7 @@
 #include "pch.h"
 #include <gtest/gtest.h>
 
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\CollapseLines\CollapseLines.cpp>
+#include <C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\CollapseLines\CollapseLines.cpp>
 
 using namespace std;
 using namespace testing;

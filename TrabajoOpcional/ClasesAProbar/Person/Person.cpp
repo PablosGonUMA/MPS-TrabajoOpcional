@@ -4,10 +4,10 @@
 #include <vector>
 #include "Person.h"
 
-#include "C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.h"
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.cpp>
-#include "C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.h"
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.cpp>
+#include "C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.h"
+#include <C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.cpp>
+#include "C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.h"
+#include <C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.cpp>
 
 Person::Person(const string& name, int age, const string& gender) {
     if (age < 0 || age > 130)

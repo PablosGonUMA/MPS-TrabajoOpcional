@@ -4,11 +4,11 @@
 #include <stdexcept>
 
 #include "..\ClasesAProbar\Person\Person.h"
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\Person.cpp>
+#include <C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\Person.cpp>
 #include "..\ClasesAProbar\Person\InvalidAgeException.h"
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.cpp>
+#include <C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.cpp>
 #include "..\ClasesAProbar\Person\InvalidGenderException.h"
-#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.cpp>
+#include <C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.cpp>
 
 
 using namespace std;

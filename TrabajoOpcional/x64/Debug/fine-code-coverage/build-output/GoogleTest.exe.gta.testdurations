@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\pablo\Desktop\MPS-TrabajoOpcional\TrabajoOpcional\x64\Debug\GoogleTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="FactorialTest.Compute_ValidValues_ReturnsValidResults" Duration="1" />
+    <TestDuration Test="FactorialTest.Compute_NegativeValue_ThrowsNegativeValueException" Duration="1" />
+    <TestDuration Test="FactorialTest.Compute_BigValue_ThrowsParameterValueCausesOverflow" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_ThrowException_When_InputIsEmptyString" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_ReturnEmptyString_When_InputIsNewLine" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_ReturnASingleCharacter_When_InputIsASingleCharacter" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_ReturnASingleCharacter_When_InputIsNewLineFollowedBySingleCharacter" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_ReturnEmptyString_When_InputIsTwoNewLines" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_ReturnTheSameString_When_InputIsTwoCharactersFollowedByNewLine" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_DeleteTheLastNewLine_When_InputIsTwoCharactersFollowedByTwoNewLines" Duration="1" />
+    <TestDuration Test="CollapseLinesTest.Should_DeleteAllNewLines_When_InputIsSingleCharacterFollowedByTwoNewLines" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
