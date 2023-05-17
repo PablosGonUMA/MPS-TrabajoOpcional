@@ -4,11 +4,9 @@
 #include <stdexcept>
 #include <string>
 
-namespace Factorial {
-    class NegativeValueException : public std::runtime_error {
-    public:
-        explicit NegativeValueException(const std::string& errorMessage);
-    };
-}
+class NegativeValueException : public std::runtime_error {
+public:
+    explicit NegativeValueException(const std::string& errorMessage);
+};
 
 #endif

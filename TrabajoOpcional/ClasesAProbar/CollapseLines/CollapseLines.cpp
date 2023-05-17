@@ -1,26 +1,24 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
+#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\CollapseLines\CollapseLines.h>
 
-namespace CollapseLines {
-    using namespace std;
+using namespace std;
 
-    class CollapseLines {
+string CollapseLines::collapseNewLines(string arg) {
 
-        public static string collapseNewLines(string arg) {
+    char last = arg.at(0);
+    string buffer = "";
 
-            char last = arg.at(0);
-            string buffer = "";
-
-            for (int index = 0; index < arg.size(); index++) {
-                char ch = arg.at(index);
-                if (ch != '\n' || last != '\n') {
-                    buffer = buffer + ch;
-                    last = ch;
-                }
-            }
-
-            return buffer;
+    for (unsigned index = 0; index < arg.size(); index++) {
+        char ch = arg.at(index);
+        if (ch != '\n' || last != '\n') {
+            buffer = buffer + ch;
+            last = ch;
         }
     }
+
+    return buffer;
 }
+  
+

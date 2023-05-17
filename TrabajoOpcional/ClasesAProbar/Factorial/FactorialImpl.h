@@ -16,12 +16,10 @@
 #include "NegativeValueException.h"
 #include "ParameterValueCausesOverflow.h"
 
-namespace Factorial {
-    class Factorial {
-    public:
-        int compute(int value);
-        int64_t computeBigValue(int value);
-    };
-}
+using namespace std;
+class FactorialImpl {
+public:
+    int compute(int value);
+};
 
 #endif

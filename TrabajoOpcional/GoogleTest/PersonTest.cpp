@@ -1,14 +1,18 @@
-#include "../ClasesAProbar/Person.h";
-#include <../ClasesAProbar/Person/Person.cpp>
-
+#include "pch.h"
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>
 #include <vector>
 #include <stdexcept>
 
+#include "..\ClasesAProbar\Person\Person.h"
+#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\Person.cpp>
+#include "..\ClasesAProbar\Person\InvalidAgeException.h"
+#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidAgeException.cpp>
+#include "..\ClasesAProbar\Person\InvalidGenderException.h"
+#include <C:\Users\Dani\OneDrive\Documentos\Uni\3o\Mantenimiento\MPS-TrabajoOpcional\TrabajoOpcional\ClasesAProbar\Person\InvalidGenderException.cpp>
+
+
 using namespace std;
 using namespace testing;
-using namespace Person;
 
 class PersonTest : public ::testing::Test {
 protected:
@@ -19,7 +23,7 @@ protected:
     }
 };
 
-TEST_F(PersonTest, MeanAgeForZeroPersons) {
+TEST(PersonTest, MeanAgeForZeroPersons) {
     vector<Person> personList;
     double obtainedValue[2];
     double expectedValue[2] = { 0, 0 };
@@ -29,7 +33,7 @@ TEST_F(PersonTest, MeanAgeForZeroPersons) {
     ASSERT_THAT(obtainedValue, ::testing::ElementsAreArray(expectedValue));
 }
 
-TEST_F(PersonTest, MeanAgeForOnePerson) {
+TEST(PersonTest, MeanAgeForOnePerson) {
     int age = 20;
     vector<Person> personList;
     personList.push_back(Person("María", age, "Female"));
@@ -41,7 +45,7 @@ TEST_F(PersonTest, MeanAgeForOnePerson) {
     ASSERT_THAT(obtainedValue, ::testing::ElementsAreArray(expectedValue));
 }
 
-TEST_F(PersonTest, MeanAgeForFivePersons) {
+TEST(PersonTest, MeanAgeForFivePersons) {
     vector<Person> personList;
     personList.push_back(Person("María", 20, "Female"));
     personList.push_back(Person("John", 25, "Male"));
